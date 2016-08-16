@@ -4,4 +4,5 @@ def find_missing(a,b):
         return p[0]
     else:
         return 0
-find_missing([1, 2], [1, 2, 5])
+print find_missing([1, 2], [1, 2, 5])
+print find_missing([1],[1,2])
